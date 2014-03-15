@@ -1,0 +1,159 @@
+body {
+    padding: 10px; 
+    overflow-x: hidden;
+}
+#aboutcolor {
+    background-color: darkcyan;
+}
+#groupcolor {
+    /*darkcyan mixed with mediumseagreen*/
+    background-color: #1B9D7F;
+}
+#projcolor {
+    /*mediumseagreen mixed with darkcyan*/
+    background-color: #33AD75;
+}
+#header {
+    width: 100%;
+    height: 310px;
+}
+#leftcol {
+    clear: both;
+    float:left;
+    width: 23%;
+    margin-left: 1.3%;
+}
+#righttcol {
+    float: left;
+    width: 70%;
+    padding:10px;
+    margin-left: 2%;
+}
+img {
+    display: block;
+    border: 3px solid indigo;
+    border-radius: 5px;
+}
+#hdr_im {
+    width: 100%;
+    height: 300px;
+}
+#name {
+    position:relative;
+    width: 60%;
+    height: 100px;
+    bottom: 310px;
+    left: 40%;
+}
+#name > p {
+    font-family: 'Slackey', sans-serif;
+    color: greenyellow;
+    font-size: 80px;
+    text-align: right;
+    z-index: 1;
+    margin-right: 10px;
+}
+p {
+    color: aquamarine;
+    font-family: 'Gilda Display', sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 60px;
+    position: relative;
+    clear:right;
+}
+#firstp {
+    margin-top: 40px;
+}
+div > p {
+    margin-top: 0px;
+}
+#navbar{
+    position:fixed;
+    margin-top: 60px;
+    margin-left: 0px;
+    top: 10px;
+    border-radius: 5px;
+}
+ul {
+    color: aquamarine;
+    font-family: 'Gilda Display', sans-serif;
+    list-style-type: none;
+    padding-right: 60px;
+}
+li {
+    text-align: center;
+    margin: 15px; /* for navbar tab separation*/
+    border: 2px solid indigo;
+    border-radius: 5px;
+    background-color: #525252;
+    z-index: 2;
+}
+a {
+    font-family: 'Gilda Display', sans-serif;
+    text-decoration: none;
+    color: greenyellow;
+    font-size: 20px;
+}
+#navbar a {
+    display: block;  /*Makes the whole block is clickable*/
+    padding: 10px;
+}
+a:hover {
+    color: indigo;
+}
+li:hover{
+    border: 2px solid greenyellow;
+}
+/*a:visited {
+    color: indigo;
+}*/
+.menu {
+    text-align: center;
+    color: greenyellow;
+    font-size: 20px;
+    font-family: 'Gilda Display', sans-serif;
+    text-decoration: none;
+}
+h1 {
+    color: indigo;
+    font-family: 'Slackey', sans-serif;
+    text-align: center;
+}
+h2 {
+    color: indigo;
+    font-family: 'Slackey', sans-serif;
+    text-align: left;
+    position: relative;
+    left: 50px;
+}
+#mainblock {
+    background-color: #525252;
+    border-radius: 5px;
+    border: indigo 3px solid;
+    padding-bottom: 30px;
+}
+.side_im {
+    clear: left;
+    width: 90%;
+    margin: 30px 10px 10px 10px;
+    z-index: -1;
+}
+#clear {
+    height: 30px;
+    clear:both;
+}
+.list{
+    list-style-type: square;
+    margin: 0px 0px 0px 50px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.list > li{
+    text-align: left;
+    padding-top: 0px;
+    margin: 0px;
+    background-color: none;
+    border: none;
+    z-index: 1;
+}
